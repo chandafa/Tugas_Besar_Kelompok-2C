@@ -1,0 +1,35 @@
+INSERT INTO "Notifications" ("user_id", "message", "created_at")
+VALUES
+(1, 'Kampanye Anda telah disetujui.', GETDATE()),  
+(2, 'Dokumen tidak lengkap', GETDATE()),
+(3, 'Kampanye Anda telah disetujui.', GETDATE()),
+(4, 'Kampanye Anda telah disetujui.', GETDATE()),
+(5, 'Kampanye tidak sesuai kriteria', GETDATE()),
+(6, 'Kampanye Anda telah disetujui.', GETDATE()),
+(7, 'Kampanye Anda telah disetujui.', GETDATE()),
+(8, 'Permohonan tidak valid', GETDATE()),
+(9, 'Kampanye Anda telah disetujui.', GETDATE()),
+(10, 'Kampanye Anda telah disetujui.', GETDATE()),
+(11, 'Tidak memenuhi syarat', GETDATE()),
+(12, 'Kampanye Anda telah disetujui.', GETDATE()),
+(13, 'Kampanye Anda telah disetujui.', GETDATE()),
+(14, 'Kampanye Anda telah disetujui.', GETDATE()),
+(15, 'Diperlukan revisi', GETDATE()),
+(16, 'Kampanye Anda telah disetujui.', GETDATE()),
+(17, 'Kampanye Anda telah disetujui.', GETDATE()),
+(18, 'Bukti tidak lengkap', GETDATE()),
+(19, 'Kampanye Anda telah disetujui.', GETDATE()),
+(20, 'Informasi tidak akurat', GETDATE()),
+(21, 'Kampanye Anda telah disetujui.', GETDATE()),
+(22, 'Kampanye Anda telah disetujui.', GETDATE()),
+(23, 'Kampanye sudah berakhir', GETDATE()),
+(24, 'Kampanye Anda telah disetujui.', GETDATE()),
+(25, 'Kampanye Anda telah disetujui.', GETDATE()),
+(26, 'Kampanye Anda telah disetujui.', GETDATE()),
+(27, 'Tidak memenuhi kriteria', GETDATE()),
+(28, 'Kampanye Anda telah disetujui.', GETDATE()),
+(29, 'Kampanye Anda telah disetujui.', GETDATE()),
+(30, 'Dokumen tidak valid', GETDATE());
+
+
+select * from Verification_Logs;
